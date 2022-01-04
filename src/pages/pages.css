@@ -1,0 +1,293 @@
+.section {
+  background-color: white;
+  margin: 24px;
+  padding: 12px;
+}
+
+.background {
+  background-color: #f2f2f2;
+  height: auto;
+}
+
+.foot {
+  color: white;
+  background-color: #001c36;
+  text-align: center;
+}
+
+/*#landing_image {
+  background: url("https://images.unsplash.com/photo-1456513080510-7bf3a84b82f8?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8M3x8c3R1ZHl8ZW58MHx8MHx8&auto=format&fit=crop&w=600&q=60") no-repeat center center fixed; 
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  height: 600px;
+  margin: 24px;
+  padding: 12px;
+}*/
+
+#landing_image {
+  background: linear-gradient(-45deg, #000000, #040040, #120d5c, #090087);
+  background-size: 400% 400%;
+  animation: gradient 15s ease infinite;
+  margin: 24px;
+  padding: 12px;
+  height: 600px;
+  border-radius: 25px;
+  z-index: 1;
+}
+
+@keyframes gradient {
+  0% {
+    background-position: 0% 50%;
+  }
+  50% {
+    background-position: 100% 50%;
+  }
+  100% {
+    background-position: 0% 50%;
+  }
+}
+
+.heading {
+  color: white;
+  /*text-shadow: -2px 0 black, 0 2px black, 2px 0 black, 0 -2px black;*/
+  padding: 12px;
+  position: relative;
+  z-index: 400;
+  /*filter: drop-shadow(0 0 0.75rem black);*/
+}
+
+.headingb {
+  color: black;
+  padding: 12px;
+  position: relative;
+}
+
+#heading1 {
+  font-size: 32pt;
+  left: 12px;
+  font-weight: bold;
+}
+
+/*.type_animation {
+  overflow: hidden;
+  border-right: .05em solid#2094fc;
+  margin: 0 auto;
+  letter-spacing: 5em;
+  animation: typing 3.5s steps(40, end),
+  blink-caret .75s step-end infinite;
+}
+
+@keyframes typing {
+  from { width: 0 }
+  to { width: 100% }
+}
+
+@keyframes blink-caret {
+  from, to { border-color: transparent }
+  50% { border-color: #2094fc }
+}*/
+
+#heading1a {
+  font-size: 32pt;
+  top: -40px;
+  left: 12px;
+  font-weight: bold;
+}
+
+#heading3 {
+  font-size: 20pt;
+  top: -50px;
+  left: 12px;
+} 
+
+#heading3a {
+  font-size: 20pt;
+  top: -80px;
+  left: 12px;
+}
+
+#heading3b {
+  font-size: 20pt;
+  top: -110px;
+  left: 12px;
+}
+
+#random {
+  font-size: large;
+  left: 24px;
+  position: relative;
+  z-index: 5;
+}
+
+#background2 {
+  background-color: white;
+  height: auto;
+}
+
+.headingb1 {
+  font-size: 20pt;
+  font-weight: bold;
+}
+
+.parar {
+  right: 48px;
+  margin-top: 200px;
+  margin-bottom: 72px;
+  text-align: center;
+}
+
+.paral {
+  left: 48px;
+  margin-top: 200px;
+  margin-bottom: 72px;
+  text-align: center;
+}
+
+.imgl {
+  size: 40%;
+  margin-top: 72px;
+  margin-bottom: 72px;
+  margin-left: 100px;
+  border-radius: 25px;
+}
+
+.imgr {
+  size: 40%;
+  margin-top: 72px;
+  margin-bottom: 72px;
+  border-radius: 25px;
+  margin-left: 120px;
+}
+
+
+#h1 {
+  font-size: 24pt;
+}
+
+#h3 {
+  font-size: 16pt;
+  margin-top: 0;
+  padding: 12px;
+}
+
+@-moz-keyframes EXAMATE-MOVE {
+  from {
+    background-position: 5% 5%;
+  }
+  to {
+    background-position: 1300% 600%;
+  }
+}
+
+@-o-keyframes EXAMATE-MOVE {
+  from {
+    background-position: 5% 5%;
+  }
+  to {
+    background-position: 1300% 600%;
+  }
+}
+
+@-webkit-keyframes EXAMATE-MOVE {
+  from {
+    background-position: 5% 5%;
+  }
+  to {
+    background-position: 1300% 600%;
+  }
+}
+
+@keyframes EXAMATE-MOVE {
+  from {
+   background-position: 5% 5%;
+  }
+  to {
+   background-position: 1300% 600%;
+  }
+}
+
+#examate_background {
+  background: url(../images/background.png) repeat 5% 5%;
+  position: absolute;
+  z-index: 0;
+  top: 88px; left: 24px; right: 24px; bottom: -12px;
+  border-radius: 25px;
+  opacity: 0.5;
+
+  -moz-animation-name: EXAMATE-MOVE;
+  -o-animation-name: EXAMATE-MOVE;
+  -webkit-animation-name: EXAMATE-MOVE;
+  animation-name: EXAMATE-MOVE;
+  
+  -moz-animation-duration: 200s;
+  -o-animation-duration: 200s;
+  -webkit-animation-duration: 200s;
+  animation-duration: 200s;
+  
+  -moz-animation-timing-function: linear;
+  -o-animation-timing-function: linear;
+  -webkit-animation-timing-function: linear;
+  animation-timing-function: linear;
+  
+  -moz-animation-iteration-count: infinite;
+  -o-animation-iteration-count: infinite;
+  -webkit-animation-iteration-count: infinite;
+  animation-iteration-count: infinite;
+}
+
+#examate_midground {
+  background: url(../images/midground.png) repeat 20% 20%;
+  position: absolute;
+  z-index: 1;
+  top: 88px; left: 24px; right: 24px; bottom: -12px;
+  border-radius: 25px;
+  opacity: 0.65;
+
+  -moz-animation: EXAMATE-MOVE 150s linear infinite;
+  -o-animation: EXAMATE-MOVE 150s linear infinite;
+  -webkit-animation: EXAMATE-MOVE 150s linear infinite;
+  animation: EXAMATE-MOVE 150s linear infinite;
+}
+
+#examate_foreground {
+  background: url(../images/foreground.png) repeat 35% 35%;
+  position: absolute;
+  z-index: 0;
+  top: 88px; left: 24px; right: 24px; bottom: -12px;
+  border-radius: 25px;
+  opacity: 0.8;
+
+  -moz-animation: EXAMATE-MOVE 100s linear infinite;
+  -o-animation: EXAMATE-MOVE 100s linear infinite;
+  -webkit-animation: EXAMATE-MOVE 100s linear infinite;
+  animation: EXAMATE-MOVE 100s linear infinite;
+}
+
+.test {
+  text-align: center;
+  font-size: 24pt;
+  padding: 24px;
+}
+
+.divider {
+  margin-bottom: 0;
+}
+
+.container {
+  margin: 48px;
+  height: 500px;
+  width: 980px;
+  text-align: center;
+  position: relative;
+}
+
+.loading {
+  top: 50%;
+  left: 50%;
+  margin: -48px 0 0 -48px;
+  position: absolute
+}
+ 
+

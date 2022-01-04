@@ -1,0 +1,93 @@
+[{
+    "question": "`c`", 
+    "answer": "`0`"
+},
+{
+    "question": "`cx`", 
+    "answer": "`c`"
+},
+{
+    "question": "`x^r`", 
+    "answer": "`r*x^(r-1)`"
+},
+{
+    "question": "`1/x`", 
+    "answer": "`-frac{1}{x^2}`"
+},
+{
+    "question": "`sqrt(x)`", 
+    "answer": "`frac{1}{2sqrt(x)}`"
+},
+{
+    "question": "`sin(x)`", 
+    "answer": "`cos(x)`"
+},
+{
+    "question": "`tan(x)`", 
+    "answer": "`1 + tan^2(x)`"
+},
+{
+    "question": "`e^x`", 
+    "answer": "`e^x`"
+},
+{
+    "question": "`e^(cx)`", 
+    "answer": "`c*e^(cx)`"
+},
+{
+    "question": "`a^x`", 
+    "answer": "`ln(a)*a^x`"
+},
+{
+    "question": "`ln(|x|)`", 
+    "answer": "`1/x`"
+},
+{
+    "question": "`loga(|x|)`", 
+    "answer": "`frac{1}{ln(a)*x}`"
+},
+{
+    "question": "`arc sin(x)`", 
+    "answer": "`frac{1}{sqrt(1 - x^2)}`"
+},
+{
+    "question": "`arc cos(x)`", 
+    "answer": "`-frac{1}{sqrt(1 - x^2)}`"
+},
+{
+    "question": "`arc tan(x)`", 
+    "answer": "`frac{1}{1 + x^2}`"
+},
+{
+    "question": "`x^(-1)`", 
+    "answer": "`-x^(-2)`"
+},
+{
+    "question": "`x^(1/2)`", 
+    "answer": "`1/2x^(-1/2)`"
+},
+{
+    "question": "`e^(-x)`", 
+    "answer": "`-e^(-x)`"
+},
+{
+    "question": "`(f(x)+g(x))'`", 
+    "answer": "`f'(x) + g'(x)`"
+},
+{
+    "question": "`(c * f(x))'`", 
+    "answer": "`c * f'(x)`"
+},
+{
+    "question": "`(f(x) * g(x))'`", 
+    "answer": "`f'(x) * g(x) + f(x) * g(x)`"
+},
+{
+    "question": "`(frac{f(x)}{g(x)})'`", 
+    "answer": "`frac{f'(x) * g(x) - f(x) * g'(x)}{g^2(x)}`"
+},
+{
+    "question": "`(f(g(x)))'`", 
+    "answer": "`f'(g(x)) * g'(x)`"
+}
+]

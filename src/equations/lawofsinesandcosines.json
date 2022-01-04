@@ -1,0 +1,24 @@
+[{
+    "question": "`a/sin(alpha)`", 
+    "answer": "`2r`"
+},
+{
+    "question": "`b/sin(beta)`", 
+    "answer": "`2r`"
+},
+{
+    "question": "`c/sin(gamma)`", 
+    "answer": "`2r`"
+},
+{
+    "question": "`b^2+c^2-2bccos(alpha)`", 
+    "answer": "`a^2`"
+},
+{
+    "question": "`a^2+c^2-2accos(beta)`", 
+    "answer": "`b^2`"
+},
+{
+    "question": "`a^2+b^2-2abcos(gamma)`", 
+    "answer": "`c^2`"
+}]

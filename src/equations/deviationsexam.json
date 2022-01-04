@@ -1,0 +1,50 @@
+[{
+    "question": "`c`",
+    "answer": ["`0`", "`c`", "`c^2`", "`c/2`"],
+    "correct_answer": "`0`"
+},
+{
+    "question": "`cx`",
+    "answer": ["`c`", "`x`", "`cx^2`", "`c^2x`"],
+    "correct_answer": "`c`"
+},
+{
+    "question": "`x^r`",
+    "answer": ["`r*x^(r-1)`", "`r*x`", "`r*x^r`", "`x`"],
+    "correct_answer": "`r*x^(r-1)`"
+},
+{
+    "question": "`1/x`",
+    "answer": ["`-frac{1}{x^2}`", "`-frac{1}{x}`", "`frac{1}{x^2}`", "`-frac{1}{x^3}`"],
+    "correct_answer": "`-frac{1}{x^2}`"
+},
+{
+    "question": "`sqrt(x)`",
+    "answer": ["`frac{1}{2sqrt(x)}`", "`frac{1}{sqrt(x)}`", "`frac{3}{4sqrt(x)}`", "`-frac{1}{2sqrt(x)}`"],
+    "correct_answer": "`frac{1}{2sqrt(x)}`"
+},
+{
+    "question": "`sin(x)`",
+    "answer": ["`cos(x)`", "`-sin(x)`", "`-cos(x)`", "`sin(x)`"],
+    "correct_answer": "`cos(x)`"
+},
+{
+    "question": "`tan(x)`",
+    "answer": ["`1 + tan^2(x)`", "`1 + tan(x)`", "`tan(x)`", "`tan(1/x)`"],
+    "correct_answer": "`1 + tan^2(x)`"
+},
+{
+    "question": "`e^x`",
+    "answer": ["`e^x`", "`x^e`", "`e`", "`x`"],
+    "correct_answer": "`e^x`"
+},
+{
+    "question": "`e^(cx)`",
+    "answer": ["`c*e^(cx)`", "`c*e`", "`c*e^x`", "`c*e^c`"],
+    "correct_answer": "`c*e^(cx)`"
+},
+{
+    "question": "`a^x`",
+    "answer": ["`ln(a)*a^x`", "`ln(a)`", "`ln(a)^x`", "`x^a`"],
+    "correct_answer": "`ln(a)*a^x`"
+}]

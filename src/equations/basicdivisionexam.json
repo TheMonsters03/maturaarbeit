@@ -1,0 +1,50 @@
+[{
+    "question": "`72-:9`",
+    "answer": ["`8`", "`3`", "`6`", "`10`"],
+    "correct_answer": "`8`"
+},
+{
+    "question": "`21-:7`",
+    "answer": ["`3`", "`4`", "`9`", "`5`"],
+    "correct_answer": "`3`"
+},
+{
+    "question": "`72-:8`",
+    "answer": ["`9`", "`5`", "`3`", "`1`"],
+    "correct_answer": "`9`"
+},
+{
+    "question": "`42-:6`",
+    "answer": ["`7`", "`9`", "`12`", "`8`"],
+    "correct_answer": "`7`"
+},
+{
+    "question": "`30-:5`",
+    "answer": ["`6`", "`5`", "`9`", "`7`"],
+    "correct_answer": "`6`"
+},
+{
+    "question": "`30-:6`",
+    "answer": ["`9`", "`8`", "5`", "`10`"],
+    "correct_answer": "`5`"
+},
+{
+    "question": "`80-:8`",
+    "answer": ["`10`", "`15`", "`3`", "`6`"],
+    "correct_answer": "`10`"
+},
+{
+    "question": "`12-:3`",
+    "answer": ["`17`", "`4`", "`5`", "`7`"],
+    "correct_answer": "`4`"
+},
+{
+    "question": "`24-:8`",
+    "answer": ["`3`", "9``", "`2`", "`13`"],
+    "correct_answer": "`3`"
+},
+{
+    "question": "`90-:9`",
+    "answer": ["`3`", "`10`", "`9`", "`4`"],
+    "correct_answer": "`10`"
+}]

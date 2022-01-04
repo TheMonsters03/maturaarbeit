@@ -1,0 +1,16 @@
+.SVG {
+  position: absolute;
+  left: -15px;
+  top: -7px;
+}
+
+.QnA {
+  padding-right: 100px;
+}
+
+.margin {
+  margin-bottom: 24px;
+  text-align: center;
+  font-size: 12pt;
+  background-color: #f7f7f7;
+}

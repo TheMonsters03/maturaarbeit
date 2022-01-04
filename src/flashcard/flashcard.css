@@ -1,0 +1,107 @@
+body {
+    background-color: lightgray;
+    margin: 0;
+}
+
+.container {
+    max-width: 900px;
+    margin: 1rem 2rem;
+}
+
+.card-grid {
+    display: grid;
+    align-items: center;
+    grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+    gap: 1rem;
+}
+
+.fcard {
+    display: block;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    transform: perspective(1000px) rotateY(var(--rotate-y, 0)) translateY(var(--translate-y, 0));
+    transform-style: preserve-3d;
+    transition: 250ms;
+    border-radius: 25rem;
+    height: 300px;
+    width: 600px;
+    margin-left: auto;
+    margin-right: auto;
+    top: 48px;
+}
+
+.fcard.flip {
+    --rotate-y: 180deg;
+}
+
+.fcard .front,
+.fcard .back {
+    position: absolute;
+    padding: 1rem;
+    backface-visibility: hidden;
+    width: 600px;
+    height: 200px;
+    text-align: center;
+    font-size: 36px;
+    padding-top: 44px;
+    background-color: #f7f7f7;
+} 
+
+.fcard .back {
+    transform: rotateY(180deg);
+}
+
+.cardpreview {
+    text-align: center;
+    padding-top: 44px;
+    font-size: 36px;
+    height: 200px;
+    width: 600px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    background: #f7f7f7;
+    box-shadow: 0 0 5px 2px rgba(0, 0, 0, .3);
+}
+
+.fadeinout {
+    animation: FADEINOUT 5s linear infinite;
+}
+
+@keyframes FADEINOUT {
+    0% {
+        opacity: 0;
+    }
+    50% {
+        opacity: 1;
+    }
+    100% {
+        opacity: 0;
+    }
+}
+.xb {
+    float: right;
+}
+
+.left {
+    text-align: center;
+    width: 250px;
+    height: auto;
+    left: 296px;
+    background-color: #f7f7f7;
+}
+
+.right {
+    float: right;
+    right: 296px;
+    text-align: center;
+    height: auto;
+    width: 250px;
+    top: -75px;
+    background-color: #f7f7f7;
+}
+
+.leftarrow {
+    padding: 5px;
+}

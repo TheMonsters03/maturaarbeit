@@ -1,0 +1,44 @@
+[{
+    "question": "`c`", 
+    "answer": "`cx`"
+},
+{
+    "question": "`cx`", 
+    "answer": "`frac{c}{2}x^2`"
+},
+{
+    "question": "`x^r`", 
+    "answer": "`frac{x^(r+1)}{r+1}`"
+},
+{
+    "question": "`1/x`", 
+    "answer": "`ln(|x|)`"
+},
+{
+    "question": "`sqrt(x)`", 
+    "answer": "`2/3x^(3/2)`"
+},
+{
+    "question": "`sin(x)`", 
+    "answer": "`-cos(x)`"
+},
+{
+    "question": "`tan(x)`", 
+    "answer": "`-ln(|cos(x)|)`"
+},
+{
+    "question": "`e^x`", 
+    "answer": "`e^x`"
+},
+{
+    "question": "`e^(cx)`", 
+    "answer": "`1/c*e^(cx)`"
+},
+{
+    "question": "`a^x`", 
+    "answer": "`frac{a^x}{ln(a)}`"
+},
+{
+    "question": "`ln(|x|)`", 
+    "answer": "`x(ln(|x|)-1)`"
+}]
